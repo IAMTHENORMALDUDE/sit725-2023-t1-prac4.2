@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .modal {
+            justify-content: center;
+            align-items: center;
+            width: 70%; /* Increase the width as needed */
+            margin-left:250px;
+            margin-right:250px;
+            margin-bottom:600px;
+        }
+        .modal-content {
+            padding: 20px; /* Add more padding to make the content area larger */
+        }
+        .input-field {
+            margin-bottom: 30px; /* Increase the bottom margin to create more space between fields */
+        }
+        #nav-mobile li {
+            display: inline-block; 
+        }
+        #nav-mobile a {
+            color: white; /* Making the links white for better visibility */
+            padding: 10px; /* Adding some padding for spacing */
+            text-decoration: none; /* Removing underline from links */
+        }
+        .card {
+            width: 100%; /* This makes the card take full width of the column */
+        }
+    </style>
+</head>
+<body style="background-color:pink;">
+    <header>
+        <div class="nav-wrapper" style="background-color: rgb(127, 172, 127); width: 100%; margin: 0 auto;">
+            <ul id="nav-mobile" style="padding:20px;">
+                <li><a href="https://www.google.com">Home</a></li>
+                <li><a href="https://www.linkedin.com">Linkedin</a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="container">
+        <h1 style="text-align:center; color:rgb(154, 66, 109);">This is a website for cute chonky kittens</h1>
+        <img src="chonk.jpg" style="width: 40%; height: auto; display: block; margin: auto;">
+        <div class="row" id="card-section">
+            <div class="col-sm-12 col-md-3" style="margin:45px;">
+                <div class="card">
+                    <img class="card-img-top" src="chonk2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Some lil chonk</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3"style="margin:45px;">
+                <div class="card">
+                    <img class="card-img-top" src="chonk2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Some lil chonk</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3" style="margin:45px;">
+                <div class="card">
+                    <img class="card-img-top" src="chonk2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Some lil chonk</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button style = "display:block; margin:auto;" class="btn btn-primary" type="submit" id="clickMeButton">Click Me!!</button>
+        <div id = "modall" class = "modal">
+            <div class="row modal-content">
+                <form class="col-sm-12">
+                    <div class="row">
+                        <div class="input-field col-sm-12">
+                            <label class="col-sm-3" for="first-name">First Name</label>
+                            <input id="first-name" type="text" class="validate col-sm-9">   
+                        </div> 
+                    </div>
+                    <div class="row">
+                        <div class="input-field col-sm-12">
+                            <label class ="col-sm-3" for="last-name">Last Name</label>
+                            <input id="last-name" type="text" class="validate col-sm-9"> 
+                        </div> 
+                    </div>
+                    <div class="row">
+                        <div class="input-field col-sm-12">
+                            <label class="col-sm-3" for="password">Password</label>
+                            <input id="password" type="text" class="validate col-sm-9">
+                            
+                        </div> 
+                    </div>
+                    <div class="row">
+                        <div class="input-field col-sm-12">
+                            <label class="col-sm-3" for="email">Email</label>
+                            <input id="email" type="text" class="validate col-sm-9">
+                            
+                        </div> 
+                    </div>
+                    <div class="row d-flex justify-content-center margin-bottom:50px margin-top:50px">
+                        <button type="submit" class="btn btn-primary" id="formSubmit">Submit</button>
+                    </div>
+                </form>
+            </div>    
+        </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js">
+        
+
+    </script>
+</body>
+</html>

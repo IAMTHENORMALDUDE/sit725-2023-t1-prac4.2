@@ -1,0 +1,31 @@
+{
+  "name": "web-server",
+  "version": "1.0.1",
+  "description": "Starter template for an express web server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "web",
+    "server",
+    "template",
+    "sit774"
+  ],
+  "author": "SIT774",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IAMTHENORMALDUDE/sit725_2024_t1_prac2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IAMTHENORMALDUDE/sit725_2024_t1_prac2/issues"
+  },
+  "homepage": "https://github.com/IAMTHENORMALDUDE/sit725_2024_t1_prac2#readme"
+}
